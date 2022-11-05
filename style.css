@@ -49,10 +49,6 @@ body * {
   margin: 52px auto;
 }
 
-header img {
-  display: block;
-}
-
 header img + img {
   height: 200px;
 }
