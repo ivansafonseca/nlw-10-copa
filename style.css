@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-}
-
 :root {
   --card-title-border-color: #746615;
   --card-color-primary: #F7DD43;
@@ -59,15 +55,6 @@ header {
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 63px;
-}
-
-#logo1 {
-  display: flex;
-  flex-direction: column;
-}
-
-#logo2 {
-  height: 150px;
 }
 
 #cards {
@@ -162,6 +149,5 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100%;
   }
 }
