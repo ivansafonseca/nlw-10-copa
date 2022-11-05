@@ -45,12 +45,13 @@ body * {
 }
 
 #app {
+  height: auto;
   width: fit-content;
   margin: 52px auto;
 }
 
-header img + img {
-  height: 200px;
+header #logo2 {
+  height: 150px;
 }
 
 header {
