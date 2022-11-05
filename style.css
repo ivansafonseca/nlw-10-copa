@@ -49,6 +49,14 @@ body * {
   margin: 52px auto;
 }
 
+header img {
+  display: block;
+}
+
+header img + img {
+  height: 200px;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -134,7 +142,7 @@ header {
 
 @keyframes appear {
   0% {
-    transform: translateY(-50px);
+    transform: translatex(-50px);
     opacity: 0;
   }
   100% {
